@@ -7,6 +7,32 @@ header {
     position: relative;
     background-color: #6D8E90;
     height: 500px;
+    display: block;
+}
+/* ----learning landing page---- */
+.learning-main {
+    display: block;
+    margin-top: -20px;
+    height: 100vh;
+    background-color: #EFDBB4;
+}
+
+
+/* -----about landing page----- */
+#about-id {
+    display: block;
+    margin-top: -20px;
+    height: 100vh;
+    background-color: #7D87A0;
+}
+
+
+/* -----contact landing page-----  */
+#contact-id {
+    display: block;
+    margin-top: -20px;
+    height: 100vh;
+    background-color: #A97950;
 }
 
 .name {
@@ -30,7 +56,6 @@ header {
 nav {
     align-items: center;
     font-size: 2.5em;
-    color: #3C4B72;
 }
 
 ul {
@@ -38,14 +63,18 @@ ul {
     position: relative;
     top: 150px;
 }
-
+a {
+    text-decoration: none;
+    color: #3C4B72;
+}
 li {
     letter-spacing: 10px;
     font-weight: 700;
     display: inline-block;
     margin-left: 50px;
+    padding: 10px 20px;
 }
-
+/* -----When hovering on learning nav menu ----- */
 #learning:hover{
     background-color:#3C4B72 ;
     color: #EFDBB4;
@@ -53,7 +82,7 @@ li {
     border-radius: 5px;
 
 }
-
+/* -----When hovering on about nav menu ----- */
 #about:hover{
     background-color:#3C4B72 ;
     color: #D8DBE1;
@@ -61,6 +90,8 @@ li {
     border-radius: 5px;
 
 }
+
+/* -----When hovering on about nav menu ----- */
 #contact:hover{
     background-color:#3C4B72 ;
     color: #CBA17D;
