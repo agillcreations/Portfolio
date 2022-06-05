@@ -73,6 +73,7 @@ li {
     display: inline-block;
     margin-left: 50px;
     padding: 10px 20px;
+    border: 1px solid whitesmoke;
 }
 /* -----When hovering on learning nav menu ----- */
 #learning:hover{
